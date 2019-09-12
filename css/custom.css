@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap&subset=cyrillic");
+.reveal {
+  font-family: 'Rubik', sans-serif;
+  font-size: 36px; }
+  .reveal h1 {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+  .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    font-family: 'Rubik', sans-serif; }
+  .reveal h3 {
+    font-size: 1.2em; }
+  .reveal ul {
+    list-style-type: none;
+    margin-left: 0;
+    line-height: 1; }
+    .reveal ul li + li {
+      margin-top: 0.75em; }
+  .reveal .divider {
+    background: #000;
+    width: 100%;
+    height: 1px;
+    margin: 3vw 0;
+    opacity: 0.3; }
+  .reveal .dir-2r {
+    text-align: left; }
+  .reveal .dir-2l {
+    text-align: right; }
+    .reveal .dir-2l ul {
+      text-align: right; }
+
+.constract-text:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.4; }
